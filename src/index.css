@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;        /* Increase width */
+  height: 50px;       /* Increase height */
+  background-color: red;  /* For testing; remove or change as needed */
+  color: white;
+  font-size: 2rem;    /* If using text arrows */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Positioning them inside or outside the carousel as needed */
+.owl-nav .owl-prev {
+  left: 10px;
+}
+
+.owl-nav .owl-next {
+  right: 10px;
+}
+
+
+
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: darkred;
+}
+
+/* ----- Event Card Styles ----- */
+/* Ensure your EventCard component uses these classes or adjust selectors accordingly */
+
+/* Container for the card */
+.event-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 350px; /* Adjust card height as needed */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image inside the card */
+.event-card img,
+.event-card-image {
+  height: 200px; /* Adjust image height */
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Content area inside the card */
+.event-card-content {
+  padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.owl-carousel {
+    overflow: visible;
+}
+  
