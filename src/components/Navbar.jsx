@@ -25,27 +25,27 @@ export const Navbar = () => {
               About US
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/events" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/projects-products" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Projects & Products
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/contact" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/artworks" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               ArtWorks
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/contact" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/exhibition" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Exhibition
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/contact" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/art-history" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Art History
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/contact" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/infrastructure" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Infrastructue
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/contact" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+            <Link to="/login" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Login
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
