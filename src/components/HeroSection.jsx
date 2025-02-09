@@ -3,7 +3,7 @@ export const HeroSection = () => (
     {/* Hero Image */}
     <section>
       <img
-        src="src/assets/hero-img.jpg"
+        src="/assets/hero-img.jpg"
         alt="hero image"
         className="w-full h-[500px] object-cover brightness-50"
       />
@@ -49,7 +49,7 @@ export const HeroSection = () => (
           {/* Accompanying Image */}
           <div className="lg:w-1/2">
             <img
-              src="src/assets/home/hero/about-us.jpg"
+              src="/assets/home/hero/about-us.jpg"
               alt="About Us Visual"
               className="w-full rounded-lg shadow-lg"
             />

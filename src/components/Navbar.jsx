@@ -10,7 +10,7 @@ export const Navbar = () => {
         <div className="flex justify-between h-24">
           <div className="flex items-center">
             <img 
-              src="src/assets/US-INDIA-Logo.jpg" 
+              src="/assets/US-INDIA-Logo.jpg" 
               alt="Cultural Center Logo" 
               className="h-20"
             />

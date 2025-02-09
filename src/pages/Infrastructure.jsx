@@ -124,7 +124,7 @@ const Infrastructure = () => {
             </p>
           </div>
           <div className="">
-            <img src="src/assets/infrastructure/Foundry.jpg" alt="" />
+            <img src="/assets/infrastructure/Foundry.jpg" alt="" />
           </div>
         </div>
         <div>
@@ -188,7 +188,7 @@ const Infrastructure = () => {
             </p>
           </div>
           <div className="w-[3000px]">
-            <img src="src/assets/infrastructure/workshop.jpg" alt="" />
+            <img src="/assets/infrastructure/workshop.jpg" alt="" />
           </div>
         </div>
       </section>
