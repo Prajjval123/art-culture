@@ -13,8 +13,8 @@ export const HeroSection = () => (
         <h2 className="text-5xl font-extrabold mb-8 text-center">About Us</h2>
         <div className="flex flex-col lg:flex-row items-center gap-8">
           {/* Text Content */}
-          <div className="lg:w-1/2">
-            <p className="text-4xl font-semibold mb-6">
+          <div className="lg:w-1/2 text-justify">
+            <p className="text-4xl px-8 font-semibold mb-6">
               Everything you need to know...
             </p>
             <div className="space-y-6 px-8 text-gray-500 font-semibold leading-relaxed">

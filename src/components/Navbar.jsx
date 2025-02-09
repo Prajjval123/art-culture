@@ -33,8 +33,8 @@ export const Navbar = () => {
               ArtWorks
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
-            <Link to="/exhibition" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
-              Exhibition
+            <Link to="/exhibitions" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
+              Exhibitions
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
             </Link>
             <Link to="/art-history" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">

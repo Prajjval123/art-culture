@@ -143,7 +143,7 @@ const ProductsAndProjects = () => {
         <h2 className="text-5xl font-extrabold text-center text-gray-800 mb-8">
           Products & Projects
         </h2>
-        <p className="max-w-4xl mx-auto text-center text-lg text-gray-700 mb-12">
+        <p className=" mx-auto  text-lg text-gray-700 mb-12 text-justify">
           USIAC is where creativity and quality come together! We create
           aesthetically pleasing statues, sculptures, murals, paintings, and
           wall art in a variety of metals and materials including, but not
@@ -167,7 +167,7 @@ const ProductsAndProjects = () => {
         <div className="relative">
           <OwlCarousel className="owl-theme" {...carouselOptions}>
             {events2.map((event, index) => (
-              <div key={index} className="p-2">
+              <div key={index} className="p-2 ">
                 <EventCard event={event} />
               </div>
             ))}

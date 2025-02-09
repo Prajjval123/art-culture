@@ -1,76 +1,10 @@
 import React from "react";
-
-const events = [
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-  {
-    title: "This painting was done During my recent trip to U.S Niagara falls at Buffalo",
-    artist: "ANAND MANCHIRAJU",
-    category: "Painting",
-    medium: "Acrylic on Canvas",
-    image: "src/assets/home/artworks/artworks.jpg",
-    dimensions: "800X600 cm"
-  },
-];
+import { events } from "../constants/data";
 
 const ArtWorks = () => {
   return (
     <div className="py-16 bg-white">
-      <div className="mx-auto px-4 sm:px-6 lg:px-16 flex flex-col gap-12">
+      <div className="mx-auto px-4 sm:px-6 lg:px-12 flex flex-col gap-12">
         <h2 className="text-5xl font-semibold text-center text-gray-800">ArtWorks</h2>
         <p className="text-lg text-center text-gray-600 max-w-3xl mx-auto">
           Explore our online gallery featuring stunning artworks from talented artists. Each piece is crafted with passion and creativity to bring beauty and elegance to any space.
@@ -88,7 +22,7 @@ const ArtWorks = () => {
               />
               <div className="p-4 h-60 flex flex-col">
                 <div className="flex-1 pr-2 relative">
-                  <div className="max-h-28 overflow-hidden hover:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 pr-2">
+                  <div className="max-h-28 overflow-hidden hover:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 scrollbar-thumb-rounded-full pr-2">
                     <p className="font-semibold text-gray-800">{event.title}</p>
                     <p className="text-sm text-gray-600">Artist: {event.artist}</p>
                     <p className="text-sm text-gray-600">Category: {event.category}</p>

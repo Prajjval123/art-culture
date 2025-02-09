@@ -84,4 +84,22 @@
 .owl-carousel {
     overflow: visible;
 }
-  
+
+/* Custom thin, rounded scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* Thin scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9a9c9f; /* Light gray thumb */
+  border-radius: 10px; /* Fully rounded */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Hide track */
+}
+
+/* Hide scrollbar arrows */
+::-webkit-scrollbar-button {
+  display: none;
+}

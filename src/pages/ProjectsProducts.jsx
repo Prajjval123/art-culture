@@ -11,13 +11,13 @@ const dummyProducts = [
   {
     id: 2,
     title: "Product 2",
-    description: "Black Granite Statue",
+    description: "Abstract Mild Steel Sculpture installed at Aurobindo Marg New Delhi, India. Desgining ,modelling, Fabrication is done by our Artists in our worshop.",
     image: "src/assets/projectproducts/product2.jpg",
   },
   {
     id: 3,
     title: "Product 3",
-    description: "Ganesha Stone statue 8 ft height",
+    description: "Copper Repousse and Engraving Work, Size 13 feet x 7 feet. Installed at EIL- Engineers India Liited, Gurgoan.",
     image: "src/assets/projectproducts/product3.jpg",
   },
   {
@@ -88,9 +88,8 @@ const ProductCard = ({ product }) => (
       {/* Optional overlay on hover */}
       <div className="absolute inset-0 bg-black opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
     </div>
-    <div className="p-4 pb-20">
-      <h3 className="text-xl font-bold text-gray-800 mb-2">{product.title}</h3>
-      <p className="text-gray-600 text-sm">{product.description}</p>
+    <div className="p-4 pb-30">
+      <p className="text-gray-600 text-sm text-justify ">{product.description}</p>
     </div>
   </div>
 );
@@ -98,10 +97,28 @@ const ProductCard = ({ product }) => (
 const ProjectsProducts = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-8xl mx-auto px-12 py-12">
+      <div className="max-w-8xl mx-auto px-8 py-12">
         <h1 className="text-4xl font-bold text-gray-800 mb-8 text-center">
           Projects &amp; Products
         </h1>
+        <div className="flex justify-center mb-6">
+          <div className="flex space-x-4 py-4 px-24 rounded-lg w-full">
+            <select className="p-2 border border-gray-300 rounded min-w-2xs appearance-none" style={{ backgroundImage: "src/assets/projectproducts/dropdown/dropdown-svg.svg", backgroundRepeat: "no-repeat", backgroundPosition: "right 0.5rem center", backgroundSize: "1rem" }}>
+              <option>Any Category</option>
+              <option>SCULPTURE</option>
+              <option>PAINTING</option>
+              <option>STATUE</option>
+              <option>MURAL</option>
+              <option>OTHERS</option>
+            </select>
+            <select className="p-2 border border-gray-300 rounded min-w-2xs">
+              <option>All Subcategory</option>
+            </select>
+            <input type="text" placeholder="Search" className="p-2 border border-gray-300 rounded flex-grow" />
+            <button className="p-2 bg-red-500 text-white rounded min-w-24">Search</button>
+            <button className="p-2 bg-gray-300 text-black rounded min-w-24">Reset</button>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {dummyProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
