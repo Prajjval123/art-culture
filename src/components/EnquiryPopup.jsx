@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const EnquiryPopup = ({ setShowPopup }) => {
+const EnquiryPopup = ({ handleCloseModal,setShowModal }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -30,7 +30,7 @@ const EnquiryPopup = ({ setShowPopup }) => {
         <div className="bg-white p-8 rounded-2xl shadow-xl w-[550px] relative">
           {/* Close Button */}
           <button
-            onClick={() => setShowPopup(false)}
+            onClick={() => handleCloseModal()}
             className="absolute top-4 right-4 text-gray-500 hover:text-gray-800 text-2xl"
           >
             ×
