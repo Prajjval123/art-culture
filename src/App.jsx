@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      {showModal && <EnquiryPopup onClose={handleCloseModal} setShowModal={setShowModal} />}
+      {/* {showModal && <EnquiryPopup onClose={handleCloseModal} setShowModal={setShowModal} />} */}
     <div>
       <Navbar />
       <main>
