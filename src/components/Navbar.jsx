@@ -16,7 +16,7 @@ export const Navbar = () => {
             />
           </div>
 
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8 whitespace-nowrap">
             <Link to="/" className="group duration-300 text-gray-600 hover:text-blue-600 transition-colors">
               Home
               <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
