@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-
   return (
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-16">
